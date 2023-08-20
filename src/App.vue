@@ -10,7 +10,7 @@ console.log("应用是否运行在生产环境", import.meta.env.PROD);
 console.log("应用是否运行在开发环境", import.meta.env.DEV);
 console.log("应用是否运行在server上", import.meta.env.SSR);
 console.log("打包配置", import.meta.env.VITE_COMPRESSION);
-console.log("变量", import.meta.env);
+// console.log("变量", import.meta.env);
 console.log("api地址", import.meta.env.VITE_API_URL);
 // mock示例
 userList({ pageNum: 1, pageSize: 10 }).then(res => {
